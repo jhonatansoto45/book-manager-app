@@ -34,6 +34,10 @@
   --font-poppins: "Poppins", sans-serif;
 }
 
+@utility mask-fade-bottom {
+  mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+}
+
 html {
   font-family: var(--font-poppins);
 }
