@@ -7,22 +7,22 @@
 }
 
 @font-face {
-  font-family: "Rubik";
-  src: url(./assets/fonts/Rubik-Regular.woff) format("woff");
+  font-family: "Poppins";
+  src: url(/public/fonts/Poppins-Regular.woff2) format("woff2");
   font-weight: 400;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Rubik";
-  src: url(./assets/fonts/Rubik-SemiBold.woff) format("woff");
+  font-family: "Poppins";
+  src: url(/public/fonts/Poppins-Medium.woff2) format("woff2");
   font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Rubik";
-  src: url(./assets/fonts/Rubik-Black.woff) format("woff");
+  font-family: "Poppins";
+  src: url(/public/fonts/Poppins-Black.woff2) format("woff2");
   font-weight: 900;
   font-display: swap;
 }
@@ -30,8 +30,10 @@
 @theme {
   --color-theme-green: #417370;
   --color-theme-white: #ffffff;
+  --color-theme-blue: #001b64;
+  --font-poppins: "Poppins", sans-serif;
 }
 
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--font-poppins);
 }
