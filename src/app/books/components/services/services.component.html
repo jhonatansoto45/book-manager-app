@@ -1,1 +1,21 @@
-<p>services works!</p>
+<section class="w-full h-full p-24 bg-white">
+  <app-type-section type="Servicios" color="black" />
+
+  <h2 class="text-center text-5xl font-bold mt-12 font-poppins">
+    Explorar los <span class="text-theme-green">Servicios</span>
+  </h2>
+
+  <div
+    class="flex flex-wrap gap-12 justify-center items-center w-full px-70 mt-12"
+  >
+    @for (service of services; track $index) {
+    <div
+      class="card w-80 h-70 border-solid border-[#eeeeee] border p-8 flex flex-col justify-center items-center text-center hover:bg-theme-green transition"
+    >
+      <fa-icon [icon]="service.icon"></fa-icon>
+      <h3 class="font-bold mb-2 text-lg">{{ service.title }}</h3>
+      <p class="text-sm">{{ service.description }}</p>
+    </div>
+    }
+  </div>
+</section>
