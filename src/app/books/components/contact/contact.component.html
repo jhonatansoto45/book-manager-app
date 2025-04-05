@@ -1,1 +1,49 @@
 <p>contact works!</p>
+<section class="w-full">
+  <app-type-section [type]="'Contacto'" />
+
+  <div class="w-full flex justify-center items-center gap-8 mt-32">
+    <div class="w-2/5 flex flex-col justify-center items-start gap-8 p-8">
+      <h2 class="text-6xl font-bold text-white">¿Cómo contactarnos?</h2>
+      <p class="text-lg font-poppins font-medium text-white">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus eius
+        autem id doloribus quasi ipsum dolor cupiditate architecto! Assumenda
+        dicta repellendus labore beatae sed odio molestias et est, magni soluta.
+      </p>
+      <p class="text-lg font-poppins font-medium text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aperiam
+        libero, cumque sed dolor vel assumenda earum porro magnam ullam quia
+        itaque asperiores, repellat aspernatur iure quam autem. Alias, ducimus?
+      </p>
+    </div>
+
+    <form>
+      <div class="w-5/5 flex flex-col justify-center items-start gap-6 p-8">
+        <h2 class="text-6xl font-bold text-white">Formulario de contacto</h2>
+        <span class="text-sm font-bold text-white"> Nombre </span>
+        <input
+          type="text"
+          placeholder="Joanne Rowling"
+          class="w-full h-12 rounded-sm bg-white p-4 outline-none placeholder:text-slate-500"
+        />
+        <span class="text-sm font-bold text-white"> Correo electrónico </span>
+        <input
+          type="email"
+          placeholder="test@test.com"
+          class="w-full h-12 rounded-sm bg-white p-4 outline-none placeholder:text-slate-500"
+        />
+        <span class="text-sm font-bold text-white"> Mensaje </span>
+        <textarea
+          rows="5"
+          placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam."
+          class="w-full h-22 rounded-sm bg-white p-4 outline-none placeholder:text-slate-500"
+        ></textarea>
+        <button
+          class="w-full bg-theme-green text-white font-poppins font-bold px-4 py-2 rounded-full border-white border-solid border cursor-pointer"
+        >
+          Enviar
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
