@@ -1,0 +1,262 @@
+[
+  {
+    "titulo": "Cien Años de Soledad",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bibliotecadigitaldebogota.gov.co%2Fresources%2F3649896%2F&psig=AOvVaw3Eu1btwDSIzoxgYVD156IF&ust=1744143412049000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKi4ldXexowDFQAAAAAdAAAAABAE",
+    "rating": 4.9,
+    "descripcionCorta": "Una historia mágica y trágica de la familia Buendía en Macondo.",
+    "descripcionBreve": "Crónica familiar con realismo mágico en Macondo.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Obra maestra del realismo mágico.",
+      "Muy recomendable.",
+      "Una lectura intensa pero inolvidable."
+    ]
+  },
+  {
+    "titulo": "1984",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnidodelibros.com%2Fproducto%2F1984-3%2F&psig=AOvVaw2gP4Vqr8tlA42kYXfG6IIx&ust=1744143443057000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIi-r-TexowDFQAAAAAdAAAAABAE",
+    "rating": 4.8,
+    "descripcionCorta": "Distopía que alerta sobre el control totalitario y la vigilancia.",
+    "descripcionBreve": "Control, vigilancia y rebelión en un futuro opresivo.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Perturbadoramente actual.",
+      "Un clásico imperdible.",
+      "Me hizo pensar mucho sobre la libertad."
+    ]
+  },
+  {
+    "titulo": "Don Quijote de la Mancha",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elejandria.com%2Flibro%2Fdon-quijote-de-la-mancha%2Fcervantes-miguel%2F77&psig=AOvVaw1K6zDPUt-eMdcjQ4xEPCIv&ust=1744143468622000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIiFnvDexowDFQAAAAAdAAAAABAE",
+    "rating": 4.7,
+    "descripcionCorta": "Las locuras del ingenioso hidalgo y su fiel escudero Sancho Panza.",
+    "descripcionBreve": "Humor y crítica social desde la literatura clásica.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Divertido y profundo.",
+      "Repleto de sabiduría.",
+      "Relectura obligatoria para cualquier lector."
+    ]
+  },
+  {
+    "titulo": "El Principito",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.penguinlibros.com%2Fco%2Ftematicas%2F144416-ebook-el-principito-9789500753449&psig=AOvVaw32WW9Fr0O--89GQTKgtiZS&ust=1744143487097000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLi07vjexowDFQAAAAAdAAAAABAI",
+    "rating": 4.9,
+    "descripcionCorta": "Una fábula poética sobre la infancia, la amistad y la imaginación.",
+    "descripcionBreve": "Tierna y profunda historia universal.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Un libro para todas las edades.",
+      "Siempre me emociona.",
+      "Frases que se quedan para siempre."
+    ]
+  },
+  {
+    "titulo": "Fahrenheit 451",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-fahrenheit-451%2F9781451673265%2Fp%2F5460199&psig=AOvVaw1IhTYatkSnhQgcQD14cSbV&ust=1744143509759000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiy2IPfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.6,
+    "descripcionCorta": "Sociedad futura donde los libros están prohibidos y se queman.",
+    "descripcionBreve": "Distopía sobre la censura y el pensamiento libre.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Muy actual a pesar de su antigüedad.",
+      "Impactante y profundo.",
+      "Me hizo valorar más los libros."
+    ]
+  },
+  {
+    "titulo": "Orgullo y Prejuicio",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.primevideo.com%2F-%2Fes%2Fdetail%2FOrgullo-y-prejuicio%2F0J7Y9UVDPJYTG6TM5CJB3KQAA7&psig=AOvVaw29CBcNQFRzb38iRYszDrqw&ust=1744143529919000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDEoo3fxowDFQAAAAAdAAAAABAE",
+    "rating": 4.8,
+    "descripcionCorta": "Romance y crítica social en la Inglaterra del siglo XIX.",
+    "descripcionBreve": "Amor, orgullo y clase social.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Jane Austen es genial.",
+      "Personajes muy bien construidos.",
+      "Lo he leído varias veces."
+    ]
+  },
+  {
+    "titulo": "Crónica de una Muerte Anunciada",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.bibliotecanacional.gov.co%2Fes-co%2Fcolecciones%2Fbiblioteca-digital%2Fgaboteca%2Fpublicacion%3FTitulo%3Dcr%25C3%25B3nica-de-una-muerte-anunciada&psig=AOvVaw2vcxUvDKaUqAZnt4-s9MUZ&ust=1744143573631000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDc2KLfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.5,
+    "descripcionCorta": "Un asesinato anunciado y nadie lo evita en un pueblo colombiano.",
+    "descripcionBreve": "Suspenso con estilo periodístico.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Gabo nunca falla.",
+      "Breve pero poderoso.",
+      "Una estructura narrativa interesante."
+    ]
+  },
+  {
+    "titulo": "Los Juegos del Hambre",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.penguinlibros.com%2Fco%2Ftematicas%2F265442-ebook-los-juegos-del-hambre-1-los-juegos-del-hambre-9788427200203&psig=AOvVaw2PX5-dVz8XaVpI1ZihGa9z&ust=1744143592760000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj7m6vfxowDFQAAAAAdAAAAABAI",
+    "rating": 4.6,
+    "descripcionCorta": "Katniss lucha por sobrevivir en un juego mortal televisado.",
+    "descripcionBreve": "Acción y crítica social juvenil.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Muy emocionante.",
+      "Gran saga.",
+      "Me enganché desde el principio."
+    ]
+  },
+  {
+    "titulo": "La Sombra del Viento",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-la-sombra-del-viento%2F9788408163435%2Fp%2F47588420&psig=AOvVaw2fTb_of7UwoVsIsnoKq5gy&ust=1744143617387000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCZkLffxowDFQAAAAAdAAAAABAE",
+    "rating": 4.7,
+    "descripcionCorta": "Una novela misteriosa entre libros y secretos en la Barcelona antigua.",
+    "descripcionBreve": "Libros, misterio y amor.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Muy bien escrita.",
+      "Una joya literaria.",
+      "Zafón crea un mundo atrapante."
+    ]
+  },
+  {
+    "titulo": "Rebelión en la Granja",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.casadellibro.com.co%2Fopiniones-libro%2Frebelion-en-la-granja%2F9788499890951%2F2034878&psig=AOvVaw0cQexhejciE8Te9CBSPAMG&ust=1744143635897000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPjb8b_fxowDFQAAAAAdAAAAABAE",
+    "rating": 4.4,
+    "descripcionCorta": "Sátira política donde los animales se rebelan contra los humanos.",
+    "descripcionBreve": "Fábula política y crítica al poder.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Fácil de leer, pero muy profundo.",
+      "Gran crítica social.",
+      "Sencillo pero impactante."
+    ]
+  },
+  {
+    "titulo": "El Hobbit",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.planetadelibros.com%2Flibro-el-hobbit%2F356019&psig=AOvVaw2AI2qzngp2LOKnMw2Hmj7m&ust=1744143652254000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiwicnfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.9,
+    "descripcionCorta": "Bilbo Bolsón emprende una aventura inesperada con enanos y dragones.",
+    "descripcionBreve": "Aventura épica fantástica.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Clásico de la fantasía.",
+      "Perfecto para empezar con Tolkien.",
+      "Lo amé."
+    ]
+  },
+  {
+    "titulo": "Harry Potter y la Piedra Filosofal",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fharrypotter.fandom.com%2Fes%2Fwiki%2FHarry_Potter_y_la_piedra_filosofal&psig=AOvVaw3unPm8PamdflgDRksjEAFE&ust=1744143672895000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNDH1NHfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.8,
+    "descripcionCorta": "Harry descubre que es mago y empieza su vida en Hogwarts.",
+    "descripcionBreve": "Magia, amistad y aventuras.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Inolvidable comienzo de saga.",
+      "La magia está en cada página.",
+      "Siempre vuelvo a leerlo."
+    ]
+  },
+  {
+    "titulo": "It",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.penguinlibros.com%2Fco%2Ftematicas%2F22583-ebook-it-9788401354038&psig=AOvVaw1WsBUQjANoG3Y950lcqPGF&ust=1744143694956000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODRoNzfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.3,
+    "descripcionCorta": "Un grupo de niños enfrenta un mal antiguo disfrazado de payaso.",
+    "descripcionBreve": "Terror psicológico con mucha tensión.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Muy largo pero vale la pena.",
+      "Stephen King es un genio.",
+      "Te atrapa con su atmósfera."
+    ]
+  },
+  {
+    "titulo": "El Código Da Vinci",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-el-codigo-da-vinci%2F9788408176022%2Fp%2F48922099&psig=AOvVaw08-upewVV1224AqC8kQ8Yb&ust=1744143714403000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPCThOffxowDFQAAAAAdAAAAABAE",
+    "rating": 4.4,
+    "descripcionCorta": "Misterio, símbolos y conspiraciones en el corazón de Europa.",
+    "descripcionBreve": "Thriller lleno de giros.",
+    "enPrestamo": true,
+    "comentarios": [
+      "No pude soltarlo.",
+      "Intrigante hasta el final.",
+      "Perfecto para los que aman misterios."
+    ]
+  },
+  {
+    "titulo": "La Odisea",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tornamesa.co%2Flibro%2Fla-odisea_98699&psig=AOvVaw1UBoyIVNlku2S03YLXkzKt&ust=1744143738230000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDI_vDfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.6,
+    "descripcionCorta": "El largo viaje de Odiseo para volver a Ítaca tras la guerra.",
+    "descripcionBreve": "Viajes y mitología clásica.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Una joya épica.",
+      "Fascinante y poética.",
+      "Base de toda literatura de aventura."
+    ]
+  },
+  {
+    "titulo": "Drácula",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-dracula-ilustrado%2F9788415605317%2Fp%2F47414094&psig=AOvVaw3-_k8rjvnnv_7-EeKaMQU0&ust=1744143754629000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKiY_vjfxowDFQAAAAAdAAAAABAE",
+    "rating": 4.5,
+    "descripcionCorta": "El vampiro más icónico en una historia de horror y seducción.",
+    "descripcionBreve": "Terror gótico inolvidable.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Me dio escalofríos.",
+      "Muy atmosférico.",
+      "Un clásico obligatorio."
+    ]
+  },
+  {
+    "titulo": "Frankenstein",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.panamericana.com.co%2Ffrankenstein-550645%2Fp&psig=AOvVaw10INsE6zqWOc8oxWHxLlRK&ust=1744143772149000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCn7oDgxowDFQAAAAAdAAAAABAE",
+    "rating": 4.4,
+    "descripcionCorta": "Un científico crea vida y desata consecuencias devastadoras.",
+    "descripcionBreve": "Monstruo y humanidad.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Triste y profundo.",
+      "Más filosófico de lo que imaginaba.",
+      "Un clásico con alma."
+    ]
+  },
+  {
+    "titulo": "El Alquimista",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-el-alquimista%2F9786073194112%2Fp%2F54225281&psig=AOvVaw2js96t-P6DFL8-uincustT&ust=1744143791159000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNii7IngxowDFQAAAAAdAAAAABAE",
+    "rating": 4.2,
+    "descripcionCorta": "Un joven pastor sigue su leyenda personal en busca de un tesoro.",
+    "descripcionBreve": "Inspiración y autodescubrimiento.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Muy motivador.",
+      "Sencillo pero lleno de sabiduría.",
+      "Lo recomiendo para reflexionar."
+    ]
+  },
+  {
+    "titulo": "Rayuela",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-rayuela%2F9789589016787%2Fp%2F48186835&psig=AOvVaw0MqxUY1__uj_mhS8-gB7BT&ust=1744143807392000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDG0JHgxowDFQAAAAAdAAAAABAE",
+    "rating": 4.1,
+    "descripcionCorta": "Una novela experimental sobre el amor, la filosofía y el caos.",
+    "descripcionBreve": "Lectura libre e intensa.",
+    "enPrestamo": false,
+    "comentarios": [
+      "Difícil pero fascinante.",
+      "Cortázar rompe las reglas.",
+      "No para todos, pero único."
+    ]
+  },
+  {
+    "titulo": "La Metamorfosis",
+    "portada": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscalibre.com.co%2Flibro-la-metamorfosis%2F9788466236805%2Fp%2F49001391&psig=AOvVaw2HtPqWGdufuyDA3yBvsDBU&ust=1744143828597000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj0iJzgxowDFQAAAAAdAAAAABAE",
+    "rating": 4.3,
+    "descripcionCorta": "Kafka narra cómo un hombre se despierta convertido en insecto.",
+    "descripcionBreve": "Angustia y alienación.",
+    "enPrestamo": true,
+    "comentarios": [
+      "Raro pero atrapante.",
+      "Muy simbólico.",
+      "Te hace pensar sobre la existencia."
+    ]
+  }
+]
