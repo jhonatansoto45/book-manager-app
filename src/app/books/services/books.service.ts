@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class BooksService {
-  private readonly dataUrl = 'public/data/books-db.json';
+  private readonly dataUrl = 'data/books-db.json';
   private http = inject(HttpClient);
 
   getBooks(): Observable<Book[]> {
