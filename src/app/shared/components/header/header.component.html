@@ -1,12 +1,17 @@
+<!-- Cabecera fija: ocupa todo el ancho, con fondo azul personalizado y sombra superior -->
 <header
   class="w-full h-22 fixed top-0 left-0 flex justify-between items-center z-50 px-6 bg-theme-blue"
 >
+  <!-- Contenedor izquierdo: logo + navegación -->
   <div class="flex justify-center items-center">
+    <!-- Logo de la aplicación o sitio -->
     <img
       src="images/logo.webp"
       alt="Logo Gestor de Libros Online"
       class="w-18 object-cover mr-12"
     />
+
+    <!-- Navegación principal con enlaces ancla hacia las secciones -->
     <nav>
       <ul class="flex gap-8">
         <li>
@@ -32,6 +37,8 @@
       </ul>
     </nav>
   </div>
+
+  <!-- Botón de llamada a la acción para iniciar sesión -->
   <button
     class="bg-white w-32 h-10 text-sm rounded-full text-black z-10 font-poppins font-bold cursor-pointer"
     [routerLink]="['/login']"
