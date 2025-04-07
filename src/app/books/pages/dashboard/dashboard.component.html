@@ -1,4 +1,4 @@
-<div class="w-screen h-screen flex">
+<div class="w-full h-full flex">
   <div class="w-18 h-full">
     <app-aside />
   </div>
@@ -6,11 +6,21 @@
     <header
       class="w-full flex justify-end items-center gap-6 p-2 bg-transparent shadow-md px-8"
     >
-      <img src="" alt="Foto de perfil" class="w-12 h-12 rounded-full" />
+      <img src="#" alt="Foto de perfil" class="w-12 h-12 rounded-full" />
     </header>
     <main class="w-full h-full p-8">
       <h1 class="text-4xl font-bold text-white">Book Manager App</h1>
-      <p class="text-lg text-white">Bienvenido a tu dashboard</p>
+      <p class="text-lg text-white mb-5">Bienvenido a tu dashboard</p>
+
+      @if (loading()) {
+      <h1 class="text-white">Cargando...</h1>
+      } @else {
+      <section class="w-full flex flex-wrap justify-evenly items-center gap-6">
+        @for (book of books(); track $index) {
+        <app-card-book [book]="book" />
+        }
+      </section>
+      }
     </main>
   </div>
 </div>

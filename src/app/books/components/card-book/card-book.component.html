@@ -1,0 +1,15 @@
+<div
+  class="card w-xs h-96 rounded-2xl p-3 bg-white flex flex-col gap-2 shadow-lg"
+>
+  <img
+    [src]="book().portada"
+    alt="Libro"
+    class="w-full h-2/3 object-contain rounded-2xl"
+  />
+  <div class="info w-full h-full flex flex-col">
+    <h3 class="font-bold text-xl">{{ book().titulo }}</h3>
+    <p class="w-full h-full break-words whitespace-normal">
+      {{ book().descripcionCorta }}
+    </p>
+  </div>
+</div>
