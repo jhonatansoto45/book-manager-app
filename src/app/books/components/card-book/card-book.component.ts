@@ -1,5 +1,4 @@
 import { Component, input, signal } from '@angular/core';
-import { JsonPipe } from '@angular/common';
 import { Book } from '../../interfaces/books.interfaces';
 
 @Component({
