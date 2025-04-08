@@ -3,7 +3,7 @@
     "titulo": "Cien Años de Soledad",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg",
     "rating": 4.9,
-    "descripcionCorta": "Una historia mágica y trágica de la familia Buendía en Macondo.",
+    "descripcionCorta": "Una historia mágica y trágica de la familia Buendía en Macondo, que explora generaciones marcadas por el amor, la soledad y el destino. Con un estilo poético y envolvente, Gabriel García Márquez teje una saga inolvidable sobre el tiempo, la memoria y los fantasmas del pasado.",
     "descripcionBreve": "Crónica familiar con realismo mágico en Macondo.",
     "enPrestamo": true,
     "comentarios": [
@@ -16,7 +16,7 @@
     "titulo": "1984",
     "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84nUqbpAYPEo7Dw9iCDYBwOlUX5bn6dr6ig&s",
     "rating": 4.8,
-    "descripcionCorta": "Distopía que alerta sobre el control totalitario y la vigilancia.",
+    "descripcionCorta": "Distopía que alerta sobre el control totalitario y la vigilancia constante, en un mundo donde incluso el pensamiento es vigilado. George Orwell presenta un futuro sombrío donde la libertad individual es suprimida por el poder del Estado y el miedo.",
     "descripcionBreve": "Control, vigilancia y rebelión en un futuro opresivo.",
     "enPrestamo": false,
     "comentarios": [
@@ -29,7 +29,7 @@
     "titulo": "Don Quijote de la Mancha",
     "portada": "https://www.elejandria.com/covers/Don_Quijote_de_la_Mancha-Cervantes_Miguel-lg.png",
     "rating": 4.7,
-    "descripcionCorta": "Las locuras del ingenioso hidalgo y su fiel escudero Sancho Panza.",
+    "descripcionCorta": "Las locuras del ingenioso hidalgo y su fiel escudero Sancho Panza en una travesía entre fantasía y realidad. Una crítica brillante a los ideales caballerescos, escrita con humor, ironía y una profunda reflexión sobre la identidad y la locura.",
     "descripcionBreve": "Humor y crítica social desde la literatura clásica.",
     "enPrestamo": false,
     "comentarios": [
@@ -42,7 +42,7 @@
     "titulo": "El Principito",
     "portada": "https://www.penguinlibros.com/co/2213343/el-principito.jpg",
     "rating": 4.9,
-    "descripcionCorta": "Una fábula poética sobre la infancia, la amistad y la imaginación.",
+    "descripcionCorta": "Una fábula poética sobre la infancia, la amistad y la imaginación, que habla a niños y adultos por igual. A través de sus sencillas palabras, invita a reflexionar sobre lo esencial de la vida, la inocencia y el amor.",
     "descripcionBreve": "Tierna y profunda historia universal.",
     "enPrestamo": true,
     "comentarios": [
@@ -55,7 +55,7 @@
     "titulo": "Fahrenheit 451",
     "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/39/0c/390cf389c0c83ef393d8a0b763e856c0.jpg",
     "rating": 4.6,
-    "descripcionCorta": "Sociedad futura donde los libros están prohibidos y se queman.",
+    "descripcionCorta": "Sociedad futura donde los libros están prohibidos y se queman, mientras un bombero cuestiona su papel en este sistema. Ray Bradbury nos plantea un mundo sin pensamiento crítico, donde la ignorancia es ley y la rebeldía comienza con la lectura.",
     "descripcionBreve": "Distopía sobre la censura y el pensamiento libre.",
     "enPrestamo": false,
     "comentarios": [
@@ -68,7 +68,7 @@
     "titulo": "Orgullo y Prejuicio",
     "portada": "https://www.penguinlibros.com/co/2492523/orgullo-y-prejuicio.jpg",
     "rating": 4.8,
-    "descripcionCorta": "Romance y crítica social en la Inglaterra del siglo XIX.",
+    "descripcionCorta": "Romance y crítica social en la Inglaterra del siglo XIX, donde la inteligencia y el carácter desafían las normas establecidas. Jane Austen retrata con elegancia los dilemas del amor, el orgullo y la búsqueda de libertad personal en una sociedad rígida.",
     "descripcionBreve": "Amor, orgullo y clase social.",
     "enPrestamo": false,
     "comentarios": [
@@ -81,7 +81,7 @@
     "titulo": "Crónica de una Muerte Anunciada",
     "portada": "https://www.bibliotecanacional.gov.co/es-co/colecciones/biblioteca-digital/gaboteca/Imagenes/DOC092515-09252015123109_P%C3%A1gina_5.jpg",
     "rating": 4.5,
-    "descripcionCorta": "Un asesinato anunciado y nadie lo evita en un pueblo colombiano.",
+    "descripcionCorta": "Un asesinato anunciado y nadie lo evita en un pueblo colombiano, donde la fatalidad se mezcla con la rutina cotidiana. Una narración breve pero intensa que mezcla el periodismo, la literatura y la tragedia con maestría.",
     "descripcionBreve": "Suspenso con estilo periodístico.",
     "enPrestamo": true,
     "comentarios": [
@@ -94,7 +94,7 @@
     "titulo": "Los Juegos del Hambre",
     "portada": "https://www.penguinlibros.com/co/3550414/los-juegos-del-hambre-1-los-juegos-del-hambre.jpg",
     "rating": 4.6,
-    "descripcionCorta": "Katniss lucha por sobrevivir en un juego mortal televisado.",
+    "descripcionCorta": "Katniss lucha por sobrevivir en un juego mortal televisado, símbolo de opresión y rebelión en un mundo distópico. Una historia de valentía, sacrificio y revolución que atrapará a lectores de todas las edades.",
     "descripcionBreve": "Acción y crítica social juvenil.",
     "enPrestamo": true,
     "comentarios": [
@@ -107,7 +107,7 @@
     "titulo": "La Sombra del Viento",
     "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/4a/f8/4af862174ba709db62744f988c62e3b6.jpg",
     "rating": 4.7,
-    "descripcionCorta": "Una novela misteriosa entre libros y secretos en la Barcelona antigua.",
+    "descripcionCorta": "Una novela misteriosa entre libros y secretos en la Barcelona antigua, donde una historia olvidada resurge con fuerza. Carlos Ruiz Zafón combina el amor por la literatura con el suspenso y la nostalgia en una narración fascinante.",
     "descripcionBreve": "Libros, misterio y amor.",
     "enPrestamo": false,
     "comentarios": [
@@ -120,143 +120,13 @@
     "titulo": "Rebelión en la Granja",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/af/07/af07a2e4dcc7ddb8e95cff4fd15c1162.jpg",
     "rating": 4.4,
-    "descripcionCorta": "Sátira política donde los animales se rebelan contra los humanos.",
+    "descripcionCorta": "Sátira política donde los animales se rebelan contra los humanos, solo para descubrir una nueva forma de opresión. George Orwell ilustra con crudeza cómo el poder puede corromper y traicionar los ideales revolucionarios.",
     "descripcionBreve": "Fábula política y crítica al poder.",
     "enPrestamo": true,
     "comentarios": [
       "Fácil de leer, pero muy profundo.",
       "Gran crítica social.",
       "Sencillo pero impactante."
-    ]
-  },
-  {
-    "titulo": "El Hobbit",
-    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8aldmF5AbhK22IDx7-dFj3DUpNBV8gKJKA&s",
-    "rating": 4.9,
-    "descripcionCorta": "Bilbo Bolsón emprende una aventura inesperada con enanos y dragones.",
-    "descripcionBreve": "Aventura épica fantástica.",
-    "enPrestamo": false,
-    "comentarios": [
-      "Clásico de la fantasía.",
-      "Perfecto para empezar con Tolkien.",
-      "Lo amé."
-    ]
-  },
-  {
-    "titulo": "Harry Potter y la Piedra Filosofal",
-    "portada": "https://static.wikia.nocookie.net/esharrypotter/images/9/9a/Harry_Potter_y_la_Piedra_Filosofal_Portada_Espa%C3%B1ol.PNG/revision/latest/scale-to-width-down/1200?cb=20151020165725",
-    "rating": 4.8,
-    "descripcionCorta": "Harry descubre que es mago y empieza su vida en Hogwarts.",
-    "descripcionBreve": "Magia, amistad y aventuras.",
-    "enPrestamo": true,
-    "comentarios": [
-      "Inolvidable comienzo de saga.",
-      "La magia está en cada página.",
-      "Siempre vuelvo a leerlo."
-    ]
-  },
-  {
-    "titulo": "It",
-    "portada": "https://www.penguinlibros.com/co/1676793/it.jpg",
-    "rating": 4.3,
-    "descripcionCorta": "Un grupo de niños enfrenta un mal antiguo disfrazado de payaso.",
-    "descripcionBreve": "Terror psicológico con mucha tensión.",
-    "enPrestamo": false,
-    "comentarios": [
-      "Muy largo pero vale la pena.",
-      "Stephen King es un genio.",
-      "Te atrapa con su atmósfera."
-    ]
-  },
-  {
-    "titulo": "El Código Da Vinci",
-    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/ae/6d/ae6dc53d8e5b7c40d1f06aff105a6304.jpg",
-    "rating": 4.4,
-    "descripcionCorta": "Misterio, símbolos y conspiraciones en el corazón de Europa.",
-    "descripcionBreve": "Thriller lleno de giros.",
-    "enPrestamo": true,
-    "comentarios": [
-      "No pude soltarlo.",
-      "Intrigante hasta el final.",
-      "Perfecto para los que aman misterios."
-    ]
-  },
-  {
-    "titulo": "La Odisea",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/0d/6b/0d6bd4e52ea62851888a6062e2bb9c95.jpg",
-    "rating": 4.6,
-    "descripcionCorta": "El largo viaje de Odiseo para volver a Ítaca tras la guerra.",
-    "descripcionBreve": "Viajes y mitología clásica.",
-    "enPrestamo": false,
-    "comentarios": [
-      "Una joya épica.",
-      "Fascinante y poética.",
-      "Base de toda literatura de aventura."
-    ]
-  },
-  {
-    "titulo": "Drácula",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/76/dc/76dc4380329a0f6f3d38ae712e5407ac.jpg",
-    "rating": 4.5,
-    "descripcionCorta": "El vampiro más icónico en una historia de horror y seducción.",
-    "descripcionBreve": "Terror gótico inolvidable.",
-    "enPrestamo": true,
-    "comentarios": [
-      "Me dio escalofríos.",
-      "Muy atmosférico.",
-      "Un clásico obligatorio."
-    ]
-  },
-  {
-    "titulo": "Frankenstein",
-    "portada": "https://panamericana.vtexassets.com/arquivos/ids/290993/frankenstein-9789583056772.jpg?v=636602574420700000",
-    "rating": 4.4,
-    "descripcionCorta": "Un científico crea vida y desata consecuencias devastadoras.",
-    "descripcionBreve": "Monstruo y humanidad.",
-    "enPrestamo": false,
-    "comentarios": [
-      "Triste y profundo.",
-      "Más filosófico de lo que imaginaba.",
-      "Un clásico con alma."
-    ]
-  },
-  {
-    "titulo": "El Alquimista",
-    "portada": "https://images.cdn2.buscalibre.com/fit-in/520x520/01/8e/018eda7c5353d6309dec7992b63096a7.jpg",
-    "rating": 4.2,
-    "descripcionCorta": "Un joven pastor sigue su leyenda personal en busca de un tesoro.",
-    "descripcionBreve": "Inspiración y autodescubrimiento.",
-    "enPrestamo": true,
-    "comentarios": [
-      "Muy motivador.",
-      "Sencillo pero lleno de sabiduría.",
-      "Lo recomiendo para reflexionar."
-    ]
-  },
-  {
-    "titulo": "Rayuela",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/5f/e3/5fe36ee4454f97b6b815ca8714032c69.jpg",
-    "rating": 4.1,
-    "descripcionCorta": "Una novela experimental sobre el amor, la filosofía y el caos.",
-    "descripcionBreve": "Lectura libre e intensa.",
-    "enPrestamo": false,
-    "comentarios": [
-      "Difícil pero fascinante.",
-      "Cortázar rompe las reglas.",
-      "No para todos, pero único."
-    ]
-  },
-  {
-    "titulo": "La Metamorfosis",
-    "portada": "https://www.elejandria.com/covers/La_Metamorfosis-Kafka_Franz-lg.png",
-    "rating": 4.3,
-    "descripcionCorta": "Kafka narra cómo un hombre se despierta convertido en insecto.",
-    "descripcionBreve": "Angustia y alienación.",
-    "enPrestamo": true,
-    "comentarios": [
-      "Raro pero atrapante.",
-      "Muy simbólico.",
-      "Te hace pensar sobre la existencia."
     ]
   }
 ]

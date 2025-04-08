@@ -1,5 +1,6 @@
 <div
   class="card w-xs h-96 rounded-2xl p-3 bg-white flex flex-col gap-2 shadow-lg"
+  (click)="onViewBook(book())"
 >
   <img
     [src]="book().portada"
@@ -9,7 +10,64 @@
   <div class="info w-full h-full flex flex-col">
     <h3 class="font-bold text-xl">{{ book().titulo }}</h3>
     <p class="w-full h-full break-words whitespace-normal">
-      {{ book().descripcionCorta }}
+      {{ book().descripcionBreve }}
     </p>
   </div>
 </div>
+
+@if (modal()) {
+<div
+  class="backdrop w-screen h-screen fixed top-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center"
+>
+  <div class="modal w-2/3 h-2/3 bg-white px-16 py-4 rounded-sm flex flex-col">
+    <header class="w-full flex justify-end">
+      <button
+        class="rounded-full text-black font-bold text-4xl cursor-pointer"
+        (click)="controlModal()"
+      >
+        x
+      </button>
+    </header>
+
+    <div class="content w-full h-full">
+      <section class="info flex gap-20">
+        <picture
+          class="w-20 m-w-20 flex flex-col gap-6 justify-center items-center flex-1"
+        >
+          <img
+            [src]="book().portada"
+            alt="Libro"
+            class="w-full object-contain rounded-2xl image"
+          />
+          <strong>Ref 123456789</strong>
+        </picture>
+        <div class="w-[70%]">
+          <h2 class="font-bold text-5xl">{{ book().titulo }}</h2>
+          <p class="mt-3">{{ book().descripcionCorta }}</p>
+
+          <div class="valoration flex items-center gap-4">
+            <strong class="mt-6 block text-4xl">Valoración </strong>
+            @for (star of getRatingArray(book().rating); track $index) {
+            <span class="text-4xl mt-5">⭐</span> }
+          </div>
+
+          <p class="mt-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            repudiandae, fugit vitae magnam eveniet optio tenetur itaque id
+            ducimus placeat vero animi modi. Asperiores, nihil enim veritatis
+            magnam aspernatur iure!
+          </p>
+        </div>
+      </section>
+      <section class="comments w-full mt-5">
+        <h1 class="font-poppins font-bold text-3xl">Comentarios</h1>
+        <div class="flex w-full h-full mt-6 gap-6">
+          @for (item of book().comentarios; track $index) {
+          <p>{{ item }}</p>
+          }
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+}
