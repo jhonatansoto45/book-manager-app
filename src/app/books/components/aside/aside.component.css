@@ -6,3 +6,12 @@ aside {
 aside:hover {
   transform: translateX(0);
 }
+
+
+header h2 {
+  display: none;
+}
+
+aside:hover header h2 {
+  display: block;
+}
