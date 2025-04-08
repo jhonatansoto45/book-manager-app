@@ -4,7 +4,7 @@ import { Book } from '../../interfaces/books.interfaces';
 
 @Component({
   selector: 'app-card-book',
-  imports: [JsonPipe],
+  imports: [],
   templateUrl: './card-book.component.html',
   styleUrl: './card-book.component.css',
 })
