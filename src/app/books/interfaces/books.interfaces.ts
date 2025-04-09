@@ -5,5 +5,12 @@ export interface Book {
   descripcionCorta: string;
   descripcionBreve: string;
   enPrestamo: boolean;
-  comentarios: string[];
+  comentarios: Comentarios[];
+}
+
+
+export interface Comentarios {
+  usuario:string;
+  valoracion: number;
+  descripcion: string;
 }

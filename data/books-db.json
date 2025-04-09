@@ -7,9 +7,9 @@
     "descripcionBreve": "Crónica familiar con realismo mágico en Macondo.",
     "enPrestamo": true,
     "comentarios": [
-      "Obra maestra del realismo mágico.",
-      "Muy recomendable.",
-      "Una lectura intensa pero inolvidable."
+      { "usuario": "ana_lectora", "valoracion": 5, "descripcion": "Obra maestra del realismo mágico." },
+      { "usuario": "juan23", "valoracion": 5, "descripcion": "Muy recomendable." },
+      { "usuario": "marcela_g", "valoracion": 4, "descripcion": "Una lectura intensa pero inolvidable." }
     ]
   },
   {
@@ -20,9 +20,9 @@
     "descripcionBreve": "Control, vigilancia y rebelión en un futuro opresivo.",
     "enPrestamo": false,
     "comentarios": [
-      "Perturbadoramente actual.",
-      "Un clásico imperdible.",
-      "Me hizo pensar mucho sobre la libertad."
+      { "usuario": "daniel_sombra", "valoracion": 5, "descripcion": "Perturbadoramente actual." },
+      { "usuario": "librosluz", "valoracion": 5, "descripcion": "Un clásico imperdible." },
+      { "usuario": "noelia1984", "valoracion": 4, "descripcion": "Me hizo pensar mucho sobre la libertad." }
     ]
   },
   {
@@ -33,9 +33,9 @@
     "descripcionBreve": "Humor y crítica social desde la literatura clásica.",
     "enPrestamo": false,
     "comentarios": [
-      "Divertido y profundo.",
-      "Repleto de sabiduría.",
-      "Relectura obligatoria para cualquier lector."
+      { "usuario": "carmen_q", "valoracion": 5, "descripcion": "Divertido y profundo." },
+      { "usuario": "leolector", "valoracion": 4, "descripcion": "Repleto de sabiduría." },
+      { "usuario": "andres_books", "valoracion": 5, "descripcion": "Relectura obligatoria para cualquier lector." }
     ]
   },
   {
@@ -46,9 +46,9 @@
     "descripcionBreve": "Tierna y profunda historia universal.",
     "enPrestamo": true,
     "comentarios": [
-      "Un libro para todas las edades.",
-      "Siempre me emociona.",
-      "Frases que se quedan para siempre."
+      { "usuario": "maria_stella", "valoracion": 5, "descripcion": "Un libro para todas las edades." },
+      { "usuario": "pepelector", "valoracion": 4, "descripcion": "Siempre me emociona." },
+      { "usuario": "isa_infantil", "valoracion": 5, "descripcion": "Frases que se quedan para siempre." }
     ]
   },
   {
@@ -59,9 +59,9 @@
     "descripcionBreve": "Distopía sobre la censura y el pensamiento libre.",
     "enPrestamo": false,
     "comentarios": [
-      "Muy actual a pesar de su antigüedad.",
-      "Impactante y profundo.",
-      "Me hizo valorar más los libros."
+      { "usuario": "lucasfuego", "valoracion": 5, "descripcion": "Muy actual a pesar de su antigüedad." },
+      { "usuario": "sara_b", "valoracion": 4, "descripcion": "Impactante y profundo." },
+      { "usuario": "ale_reads", "valoracion": 5, "descripcion": "Me hizo valorar más los libros." }
     ]
   },
   {
@@ -72,9 +72,9 @@
     "descripcionBreve": "Amor, orgullo y clase social.",
     "enPrestamo": false,
     "comentarios": [
-      "Jane Austen es genial.",
-      "Personajes muy bien construidos.",
-      "Lo he leído varias veces."
+      { "usuario": "emma_reader", "valoracion": 5, "descripcion": "Jane Austen es genial." },
+      { "usuario": "sofi_lit", "valoracion": 4, "descripcion": "Personajes muy bien construidos." },
+      { "usuario": "patricia_classic", "valoracion": 5, "descripcion": "Lo he leído varias veces." }
     ]
   },
   {
@@ -85,9 +85,9 @@
     "descripcionBreve": "Suspenso con estilo periodístico.",
     "enPrestamo": true,
     "comentarios": [
-      "Gabo nunca falla.",
-      "Breve pero poderoso.",
-      "Una estructura narrativa interesante."
+      { "usuario": "andrea_gm", "valoracion": 5, "descripcion": "Gabo nunca falla." },
+      { "usuario": "cata_lectora", "valoracion": 4, "descripcion": "Breve pero poderoso." },
+      { "usuario": "martin_z", "valoracion": 5, "descripcion": "Una estructura narrativa interesante." }
     ]
   },
   {
@@ -98,9 +98,9 @@
     "descripcionBreve": "Acción y crítica social juvenil.",
     "enPrestamo": true,
     "comentarios": [
-      "Muy emocionante.",
-      "Gran saga.",
-      "Me enganché desde el principio."
+      { "usuario": "natalia_sinsajo", "valoracion": 5, "descripcion": "Muy emocionante." },
+      { "usuario": "fanthg", "valoracion": 5, "descripcion": "Gran saga." },
+      { "usuario": "marco_juegos", "valoracion": 4, "descripcion": "Me enganché desde el principio." }
     ]
   },
   {
@@ -111,9 +111,9 @@
     "descripcionBreve": "Libros, misterio y amor.",
     "enPrestamo": false,
     "comentarios": [
-      "Muy bien escrita.",
-      "Una joya literaria.",
-      "Zafón crea un mundo atrapante."
+      { "usuario": "elena_zafon", "valoracion": 5, "descripcion": "Muy bien escrita." },
+      { "usuario": "diego_misterio", "valoracion": 5, "descripcion": "Una joya literaria." },
+      { "usuario": "lectura_nocturna", "valoracion": 4, "descripcion": "Zafón crea un mundo atrapante." }
     ]
   },
   {
@@ -124,9 +124,9 @@
     "descripcionBreve": "Fábula política y crítica al poder.",
     "enPrestamo": true,
     "comentarios": [
-      "Fácil de leer, pero muy profundo.",
-      "Gran crítica social.",
-      "Sencillo pero impactante."
+      { "usuario": "claudia_animals", "valoracion": 4, "descripcion": "Fácil de leer, pero muy profundo." },
+      { "usuario": "omar_rebel", "valoracion": 4, "descripcion": "Gran crítica social." },
+      { "usuario": "luis_fabula", "valoracion": 5, "descripcion": "Sencillo pero impactante." }
     ]
   }
 ]

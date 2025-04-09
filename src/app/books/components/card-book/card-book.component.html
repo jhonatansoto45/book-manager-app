@@ -17,19 +17,21 @@
 
 @if (modal()) {
 <div
-  class="backdrop w-screen h-screen fixed top-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center"
+  class="backdrop w-screen h-screen fixed top-0 left-0 bg-[rgba(0,0,0,0.5)] flex justify-center items-center z-20"
 >
-  <div class="modal w-2/3 h-2/3 bg-white px-16 py-4 rounded-sm flex flex-col">
-    <header class="w-full flex justify-end">
+  <div
+    class="modal w-2/3 h-4/5 bg-white px-16 py-4 rounded-sm flex flex-col relative"
+  >
+    <header class="w-full flex justify-end relative">
       <button
-        class="rounded-full text-black font-bold text-4xl cursor-pointer"
+        class="rounded-full text-black font-bold text-4xl cursor-pointer absolute"
         (click)="controlModal()"
       >
         x
       </button>
     </header>
 
-    <div class="content w-full h-full">
+    <div class="content w-full h-full mt-4">
       <section class="info flex gap-20">
         <picture
           class="w-20 m-w-20 flex flex-col gap-6 justify-center items-center flex-1"
@@ -57,13 +59,30 @@
             ducimus placeat vero animi modi. Asperiores, nihil enim veritatis
             magnam aspernatur iure!
           </p>
+
+          <div class="w-full flex justify-start items-center gap-2 mt-5">
+            <button
+              class="bg-theme-blue font-poppins text-white text-2xl font-bold px-3 py-2 rounded-full cursor-pointer"
+            >
+              Reservar
+            </button>
+            <span class="text-sm text-theme-green font-bold">Disponible</span>
+          </div>
         </div>
       </section>
       <section class="comments w-full mt-5">
         <h1 class="font-poppins font-bold text-3xl">Comentarios</h1>
         <div class="flex w-full h-full mt-6 gap-6">
           @for (item of book().comentarios; track $index) {
-          <p>{{ item }}</p>
+          <article>
+            <header class="flex justify-center items-center gap-1">
+              <h3 class="font-bold mr-2">{{ item.usuario }}</h3>
+              @for (star of getRatingArray(item.valoracion); track $index) {
+              <span class="text-lg">⭐</span> }
+            </header>
+
+            <p>{{ item.descripcion }}</p>
+          </article>
           }
         </div>
       </section>
