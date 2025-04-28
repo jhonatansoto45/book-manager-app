@@ -10,12 +10,16 @@
         </h2>
       </header>
       <hr class="border-t-2 border-white mb-5" />
-      <h1 class="text-white text-xl">Bienvenido</h1>
-      <ul class="list-disc pl-5 text-white">
-        <li>Administrar libro</li>
-        <li>Registrar libro</li>
-        <li>Administrar cuenta</li>
-        <li>Prestamos activos</li>
+      <h1 class="text-white text-xl mb-4">Bienvenido Lector</h1>
+      <ul class="list-none pl-5 text-white">
+        @for (icon of icons; track $index) {
+        <li
+          class="mb-2 flex items-center py-2 px-4 hover:bg-theme-green hover:bg-opacity-50 hover:text-white transition duration-300 gap-2 cursor-pointer"
+        >
+          <div [innerHTML]="icon.icon" class="text-white"></div>
+          <span class="font-poppins text-sm">{{ icon.name | titlecase }}</span>
+        </li>
+        }
       </ul>
     </div>
     <a
