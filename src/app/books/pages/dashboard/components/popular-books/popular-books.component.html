@@ -1,0 +1,21 @@
+<h2 class="text-2xl font-semibold text-theme-blue mb-2">Libros Populares</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+  @for (book of popularBooks(); track $index) {
+  <div class="bg-white rounded-md shadow-sm p-4 flex items-center gap-4">
+    <img
+      [src]="book.portada"
+      alt="Portada Libro 1"
+      class="w-16 h-20 object-cover rounded-md"
+    />
+    <div>
+      <h3 class="font-semibold text-gray-800">{{ book.titulo }}</h3>
+      <span class="text-sm text-gray-600">{{ book.autor }}</span>
+    </div>
+  </div>
+
+  } @empty {
+  <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+    No hay libros populares
+  </h2>
+  }
+</div>

@@ -1,132 +1,442 @@
 [
   {
     "titulo": "Cien Años de Soledad",
+    "autor": "Gabriel García Márquez",
     "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/61/8d/618d227e8967274cd9589a549adff52d.jpg",
     "rating": 4.9,
     "descripcionCorta": "Una historia mágica y trágica de la familia Buendía en Macondo, que explora generaciones marcadas por el amor, la soledad y el destino. Con un estilo poético y envolvente, Gabriel García Márquez teje una saga inolvidable sobre el tiempo, la memoria y los fantasmas del pasado.",
     "descripcionBreve": "Crónica familiar con realismo mágico en Macondo.",
     "enPrestamo": true,
     "comentarios": [
-      { "usuario": "ana_lectora", "valoracion": 5, "descripcion": "Obra maestra del realismo mágico." },
-      { "usuario": "juan23", "valoracion": 5, "descripcion": "Muy recomendable." },
-      { "usuario": "marcela_g", "valoracion": 4, "descripcion": "Una lectura intensa pero inolvidable." }
+      {
+        "usuario": "ana_lectora",
+        "valoracion": 5,
+        "descripcion": "Obra maestra del realismo mágico."
+      },
+      {
+        "usuario": "juan23",
+        "valoracion": 5,
+        "descripcion": "Muy recomendable."
+      },
+      {
+        "usuario": "marcela_g",
+        "valoracion": 4,
+        "descripcion": "Una lectura intensa pero inolvidable."
+      }
     ]
   },
   {
     "titulo": "1984",
+    "autor": "George Orwell",
     "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84nUqbpAYPEo7Dw9iCDYBwOlUX5bn6dr6ig&s",
     "rating": 4.8,
     "descripcionCorta": "Distopía que alerta sobre el control totalitario y la vigilancia constante, en un mundo donde incluso el pensamiento es vigilado. George Orwell presenta un futuro sombrío donde la libertad individual es suprimida por el poder del Estado y el miedo.",
     "descripcionBreve": "Control, vigilancia y rebelión en un futuro opresivo.",
     "enPrestamo": false,
     "comentarios": [
-      { "usuario": "daniel_sombra", "valoracion": 5, "descripcion": "Perturbadoramente actual." },
-      { "usuario": "librosluz", "valoracion": 5, "descripcion": "Un clásico imperdible." },
-      { "usuario": "noelia1984", "valoracion": 4, "descripcion": "Me hizo pensar mucho sobre la libertad." }
+      {
+        "usuario": "daniel_sombra",
+        "valoracion": 5,
+        "descripcion": "Perturbadoramente actual."
+      },
+      {
+        "usuario": "librosluz",
+        "valoracion": 5,
+        "descripcion": "Un clásico imperdible."
+      },
+      {
+        "usuario": "noelia1984",
+        "valoracion": 4,
+        "descripcion": "Me hizo pensar mucho sobre la libertad."
+      }
     ]
   },
   {
     "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
     "portada": "https://www.elejandria.com/covers/Don_Quijote_de_la_Mancha-Cervantes_Miguel-lg.png",
     "rating": 4.7,
     "descripcionCorta": "Las locuras del ingenioso hidalgo y su fiel escudero Sancho Panza en una travesía entre fantasía y realidad. Una crítica brillante a los ideales caballerescos, escrita con humor, ironía y una profunda reflexión sobre la identidad y la locura.",
     "descripcionBreve": "Humor y crítica social desde la literatura clásica.",
     "enPrestamo": false,
     "comentarios": [
-      { "usuario": "carmen_q", "valoracion": 5, "descripcion": "Divertido y profundo." },
-      { "usuario": "leolector", "valoracion": 4, "descripcion": "Repleto de sabiduría." },
-      { "usuario": "andres_books", "valoracion": 5, "descripcion": "Relectura obligatoria para cualquier lector." }
+      {
+        "usuario": "carmen_q",
+        "valoracion": 5,
+        "descripcion": "Divertido y profundo."
+      },
+      {
+        "usuario": "leolector",
+        "valoracion": 4,
+        "descripcion": "Repleto de sabiduría."
+      },
+      {
+        "usuario": "andres_books",
+        "valoracion": 5,
+        "descripcion": "Relectura obligatoria para cualquier lector."
+      }
     ]
   },
   {
     "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
     "portada": "https://www.penguinlibros.com/co/2213343/el-principito.jpg",
     "rating": 4.9,
     "descripcionCorta": "Una fábula poética sobre la infancia, la amistad y la imaginación, que habla a niños y adultos por igual. A través de sus sencillas palabras, invita a reflexionar sobre lo esencial de la vida, la inocencia y el amor.",
     "descripcionBreve": "Tierna y profunda historia universal.",
     "enPrestamo": true,
     "comentarios": [
-      { "usuario": "maria_stella", "valoracion": 5, "descripcion": "Un libro para todas las edades." },
-      { "usuario": "pepelector", "valoracion": 4, "descripcion": "Siempre me emociona." },
-      { "usuario": "isa_infantil", "valoracion": 5, "descripcion": "Frases que se quedan para siempre." }
+      {
+        "usuario": "maria_stella",
+        "valoracion": 5,
+        "descripcion": "Un libro para todas las edades."
+      },
+      {
+        "usuario": "pepelector",
+        "valoracion": 4,
+        "descripcion": "Siempre me emociona."
+      },
+      {
+        "usuario": "isa_infantil",
+        "valoracion": 5,
+        "descripcion": "Frases que se quedan para siempre."
+      }
     ]
   },
   {
     "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
     "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/39/0c/390cf389c0c83ef393d8a0b763e856c0.jpg",
     "rating": 4.6,
     "descripcionCorta": "Sociedad futura donde los libros están prohibidos y se queman, mientras un bombero cuestiona su papel en este sistema. Ray Bradbury nos plantea un mundo sin pensamiento crítico, donde la ignorancia es ley y la rebeldía comienza con la lectura.",
     "descripcionBreve": "Distopía sobre la censura y el pensamiento libre.",
     "enPrestamo": false,
     "comentarios": [
-      { "usuario": "lucasfuego", "valoracion": 5, "descripcion": "Muy actual a pesar de su antigüedad." },
-      { "usuario": "sara_b", "valoracion": 4, "descripcion": "Impactante y profundo." },
-      { "usuario": "ale_reads", "valoracion": 5, "descripcion": "Me hizo valorar más los libros." }
+      {
+        "usuario": "lucasfuego",
+        "valoracion": 5,
+        "descripcion": "Muy actual a pesar de su antigüedad."
+      },
+      {
+        "usuario": "sara_b",
+        "valoracion": 4,
+        "descripcion": "Impactante y profundo."
+      },
+      {
+        "usuario": "ale_reads",
+        "valoracion": 5,
+        "descripcion": "Me hizo valorar más los libros."
+      }
     ]
   },
   {
     "titulo": "Orgullo y Prejuicio",
+    "autor": "Jane Austen",
     "portada": "https://www.penguinlibros.com/co/2492523/orgullo-y-prejuicio.jpg",
     "rating": 4.8,
     "descripcionCorta": "Romance y crítica social en la Inglaterra del siglo XIX, donde la inteligencia y el carácter desafían las normas establecidas. Jane Austen retrata con elegancia los dilemas del amor, el orgullo y la búsqueda de libertad personal en una sociedad rígida.",
     "descripcionBreve": "Amor, orgullo y clase social.",
     "enPrestamo": false,
     "comentarios": [
-      { "usuario": "emma_reader", "valoracion": 5, "descripcion": "Jane Austen es genial." },
-      { "usuario": "sofi_lit", "valoracion": 4, "descripcion": "Personajes muy bien construidos." },
-      { "usuario": "patricia_classic", "valoracion": 5, "descripcion": "Lo he leído varias veces." }
+      {
+        "usuario": "emma_reader",
+        "valoracion": 5,
+        "descripcion": "Jane Austen es genial."
+      },
+      {
+        "usuario": "sofi_lit",
+        "valoracion": 4,
+        "descripcion": "Personajes muy bien construidos."
+      },
+      {
+        "usuario": "patricia_classic",
+        "valoracion": 5,
+        "descripcion": "Lo he leído varias veces."
+      }
     ]
   },
   {
     "titulo": "Crónica de una Muerte Anunciada",
+    "autor": "Gabriel García Márquez",
     "portada": "https://www.bibliotecanacional.gov.co/es-co/colecciones/biblioteca-digital/gaboteca/Imagenes/DOC092515-09252015123109_P%C3%A1gina_5.jpg",
     "rating": 4.5,
     "descripcionCorta": "Un asesinato anunciado y nadie lo evita en un pueblo colombiano, donde la fatalidad se mezcla con la rutina cotidiana. Una narración breve pero intensa que mezcla el periodismo, la literatura y la tragedia con maestría.",
     "descripcionBreve": "Suspenso con estilo periodístico.",
     "enPrestamo": true,
     "comentarios": [
-      { "usuario": "andrea_gm", "valoracion": 5, "descripcion": "Gabo nunca falla." },
-      { "usuario": "cata_lectora", "valoracion": 4, "descripcion": "Breve pero poderoso." },
-      { "usuario": "martin_z", "valoracion": 5, "descripcion": "Una estructura narrativa interesante." }
+      {
+        "usuario": "andrea_gm",
+        "valoracion": 5,
+        "descripcion": "Gabo nunca falla."
+      },
+      {
+        "usuario": "cata_lectora",
+        "valoracion": 4,
+        "descripcion": "Breve pero poderoso."
+      },
+      {
+        "usuario": "martin_z",
+        "valoracion": 5,
+        "descripcion": "Una estructura narrativa interesante."
+      }
     ]
   },
   {
     "titulo": "Los Juegos del Hambre",
+    "autor": "Suzanne Collins",
     "portada": "https://www.penguinlibros.com/co/3550414/los-juegos-del-hambre-1-los-juegos-del-hambre.jpg",
     "rating": 4.6,
     "descripcionCorta": "Katniss lucha por sobrevivir en un juego mortal televisado, símbolo de opresión y rebelión en un mundo distópico. Una historia de valentía, sacrificio y revolución que atrapará a lectores de todas las edades.",
     "descripcionBreve": "Acción y crítica social juvenil.",
     "enPrestamo": true,
     "comentarios": [
-      { "usuario": "natalia_sinsajo", "valoracion": 5, "descripcion": "Muy emocionante." },
+      {
+        "usuario": "natalia_sinsajo",
+        "valoracion": 5,
+        "descripcion": "Muy emocionante."
+      },
       { "usuario": "fanthg", "valoracion": 5, "descripcion": "Gran saga." },
-      { "usuario": "marco_juegos", "valoracion": 4, "descripcion": "Me enganché desde el principio." }
+      {
+        "usuario": "marco_juegos",
+        "valoracion": 4,
+        "descripcion": "Me enganché desde el principio."
+      }
     ]
   },
   {
     "titulo": "La Sombra del Viento",
+    "autor": "Carlos Ruiz Zafón",
     "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/4a/f8/4af862174ba709db62744f988c62e3b6.jpg",
     "rating": 4.7,
     "descripcionCorta": "Una novela misteriosa entre libros y secretos en la Barcelona antigua, donde una historia olvidada resurge con fuerza. Carlos Ruiz Zafón combina el amor por la literatura con el suspenso y la nostalgia en una narración fascinante.",
     "descripcionBreve": "Libros, misterio y amor.",
     "enPrestamo": false,
     "comentarios": [
-      { "usuario": "elena_zafon", "valoracion": 5, "descripcion": "Muy bien escrita." },
-      { "usuario": "diego_misterio", "valoracion": 5, "descripcion": "Una joya literaria." },
-      { "usuario": "lectura_nocturna", "valoracion": 4, "descripcion": "Zafón crea un mundo atrapante." }
+      {
+        "usuario": "elena_zafon",
+        "valoracion": 5,
+        "descripcion": "Muy bien escrita."
+      },
+      {
+        "usuario": "diego_misterio",
+        "valoracion": 5,
+        "descripcion": "Una joya literaria."
+      },
+      {
+        "usuario": "lectura_nocturna",
+        "valoracion": 4,
+        "descripcion": "Zafón crea un mundo atrapante."
+      }
     ]
   },
   {
-    "titulo": "Rebelión en la Granja",
-    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/af/07/af07a2e4dcc7ddb8e95cff4fd15c1162.jpg",
-    "rating": 4.4,
-    "descripcionCorta": "Sátira política donde los animales se rebelan contra los humanos, solo para descubrir una nueva forma de opresión. George Orwell ilustra con crudeza cómo el poder puede corromper y traicionar los ideales revolucionarios.",
-    "descripcionBreve": "Fábula política y crítica al poder.",
+    "titulo": "El Alquimista",
+    "autor": "Paulo Coelho",
+    "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/77/61/7761fbeca21fd0d29209d4a058cebe10.jpg",
+    "rating": 4.5,
+    "descripcionCorta": "Un joven pastor sigue sus sueños en un viaje desde España hasta Egipto, aprendiendo lecciones sobre el destino y el lenguaje del universo. Una fábula espiritual que inspira a millones.",
+    "descripcionBreve": "Viaje espiritual en busca de un tesoro.",
+    "enPrestamo": false,
+    "comentarios": [
+      {
+        "usuario": "viajero_sueños",
+        "valoracion": 5,
+        "descripcion": "Transformador."
+      },
+      {
+        "usuario": "lucia_c",
+        "valoracion": 4,
+        "descripcion": "Me hizo reflexionar sobre mi propósito."
+      }
+    ]
+  },
+  {
+    "titulo": "Matar a un Ruiseñor",
+    "autor": "Harper Lee",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/1b/d7/1bd7b432c94ccdcf816c917d8abe8e83.jpg",
+    "rating": 4.8,
+    "descripcionCorta": "En el sur racista de los años 30, un abogado defiende a un hombre negro injustamente acusado, mientras su hija Scout aprende sobre justicia y humanidad.",
+    "descripcionBreve": "Clásico sobre racismo y moral en Alabama.",
     "enPrestamo": true,
     "comentarios": [
-      { "usuario": "claudia_animals", "valoracion": 4, "descripcion": "Fácil de leer, pero muy profundo." },
-      { "usuario": "omar_rebel", "valoracion": 4, "descripcion": "Gran crítica social." },
-      { "usuario": "luis_fabula", "valoracion": 5, "descripcion": "Sencillo pero impactante." }
+      {
+        "usuario": "justiciero_anon",
+        "valoracion": 5,
+        "descripcion": "Atemporal y necesario."
+      },
+      {
+        "usuario": "lector_sur",
+        "valoracion": 5,
+        "descripcion": "Atticus Finch es un héroe."
+      }
+    ]
+  },
+  {
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "portada": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM8aldmF5AbhK22IDx7-dFj3DUpNBV8gKJKA&s",
+    "rating": 4.7,
+    "descripcionCorta": "Bilbo Bolsón, un hobbit tranquilo, se embarca en una aventura épica con enanos y un mago para recuperar un tesoro custodiado por un dragón.",
+    "descripcionBreve": "Aventura fantástica previa a 'El Señor de los Anillos'.",
+    "enPrestamo": false,
+    "comentarios": [
+      {
+        "usuario": "hobbit_fan",
+        "valoracion": 5,
+        "descripcion": "¡Inicio de la Tierra Media!"
+      },
+      {
+        "usuario": "dragones_yo",
+        "valoracion": 4,
+        "descripcion": "Smaug es increíble."
+      }
+    ]
+  },
+  {
+    "titulo": "El Amor en los Tiempos del Cólera",
+    "autor": "Gabriel García Márquez",
+    "portada": "https://covers.odilo.io/public/OdiloPlace_PRH_SPA_LICENCIAS/9788439735625_ORIGINAL.jpg",
+    "rating": 4.6,
+    "descripcionCorta": "Una historia de amor no correspondido que persiste por décadas, entre el poeta Florentino Ariza y la elegante Fermina Daza, en un Caribe nostálgico.",
+    "descripcionBreve": "Amor eterno y pasión obstinada.",
+    "enPrestamo": true,
+    "comentarios": [
+      {
+        "usuario": "romantico_cronico",
+        "valoracion": 5,
+        "descripcion": "Gabo lo hace de nuevo."
+      },
+      {
+        "usuario": "fermina_lover",
+        "valoracion": 4,
+        "descripcion": "Melancólico y hermoso."
+      }
+    ]
+  },
+  {
+    "titulo": "El Código Da Vinci",
+    "autor": "Dan Brown",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/a0/ce/a0cefe071d8b46f4da4c79e2a3d2243a.jpg",
+    "rating": 4.3,
+    "descripcionCorta": "Un profesor de simbología se ve envuelto en una conspiración que involucra a la Iglesia, obras de arte y un secreto milenario sobre el linaje de Cristo.",
+    "descripcionBreve": "Thriller histórico-religioso lleno de enigmas.",
+    "enPrestamo": false,
+    "comentarios": [
+      {
+        "usuario": "enigmas_lector",
+        "valoracion": 4,
+        "descripcion": "Adictivo."
+      },
+      {
+        "usuario": "arte_misterio",
+        "valoracion": 3,
+        "descripcion": "Entretenido, pero polémico."
+      }
+    ]
+  },
+  {
+    "titulo": "Drácula",
+    "autor": "Bram Stoker",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/76/dc/76dc4380329a0f6f3d38ae712e5407ac.jpg",
+    "rating": 4.4,
+    "descripcionCorta": "El conde Drácula, un vampiro sediento de sangre, viaja desde Transilvania hasta Inglaterra, sembrando el terror y desatando una cacería liderada por Van Helsing.",
+    "descripcionBreve": "Clásico del terror gótico y vampirismo.",
+    "enPrestamo": true,
+    "comentarios": [
+      {
+        "usuario": "nocturno_lector",
+        "valoracion": 5,
+        "descripcion": "El origen de los vampiros modernos."
+      },
+      {
+        "usuario": "luna_sangrienta",
+        "valoracion": 4,
+        "descripcion": "Atmósfera inquietante."
+      }
+    ]
+  },
+  {
+    "titulo": "El Retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "portada": "https://images.cdn2.buscalibre.com/fit-in/360x360/dc/e1/dce198d6b6a8f44e3d47738a8d146ce3.jpg",
+    "rating": 4.5,
+    "descripcionCorta": "Un joven hermoso vende su alma para mantenerse eternamente joven, mientras su retrato envejece y refleja su corrupción moral.",
+    "descripcionBreve": "Filosofía, vanidad y decadencia.",
+    "enPrestamo": false,
+    "comentarios": [
+      {
+        "usuario": "arte_oscuro",
+        "valoracion": 5,
+        "descripcion": "Oscar Wilde es brillante."
+      },
+      {
+        "usuario": "dorian_fan",
+        "valoracion": 4,
+        "descripcion": "Crítica social mordaz."
+      }
+    ]
+  },
+  {
+    "titulo": "Las Crónicas de Narnia: El León, la Bruja y el Ropero",
+    "autor": "C.S. Lewis",
+    "portada": "https://static.clccolombia.com/_CLCColombia/images/products/original/41509.jpg",
+    "rating": 4.7,
+    "descripcionCorta": "Cuatro hermanos descubren un mundo mágico a través de un ropero, donde luchan contra la Bruja Blanca junto al león Aslan.",
+    "descripcionBreve": "Aventura infantil con fantasía cristiana.",
+    "enPrestamo": true,
+    "comentarios": [
+      {
+        "usuario": "narnia_lover",
+        "valoracion": 5,
+        "descripcion": "Mi infancia en un libro."
+      },
+      {
+        "usuario": "aslan_rey",
+        "valoracion": 5,
+        "descripcion": "Simbolismo profundo."
+      }
+    ]
+  },
+  {
+    "titulo": "Anna Karenina",
+    "autor": "León Tolstói",
+    "portada": "https://images.cdn3.buscalibre.com/fit-in/360x360/42/be/42be3fae8b5074daefa9717ba1d3f983.jpg",
+    "rating": 4.6,
+    "descripcionCorta": "Una mujer de la alta sociedad rusa desafía las convenciones por amor, en una tragedia que explora el matrimonio, la moral y la felicidad.",
+    "descripcionBreve": "Drama romántico en la Rusia zarista.",
+    "enPrestamo": false,
+    "comentarios": [
+      {
+        "usuario": "clasicos_rusos",
+        "valoracion": 5,
+        "descripcion": "Obra maestra absoluta."
+      },
+      {
+        "usuario": "karenina_fan",
+        "valoracion": 4,
+        "descripcion": "Personajes inolvidables."
+      }
+    ]
+  },
+  {
+    "titulo": "El Psicoanalista",
+    "autor": "John Katzenbach",
+    "portada": "https://images.cdn1.buscalibre.com/fit-in/360x360/0e/eb/0eebbbd43e870b09fdacf443e16d25b3.jpg",
+    "rating": 4.2,
+    "descripcionCorta": "Un psicoanalista recibe una amenaza: debe descubrir la identidad de un paciente anónimo o enfrentar terribles consecuencias.",
+    "descripcionBreve": "Thriller psicológico adictivo.",
+    "enPrestamo": true,
+    "comentarios": [
+      {
+        "usuario": "mente_oscura",
+        "valoracion": 4,
+        "descripcion": "No pude soltarlo."
+      },
+      {
+        "usuario": "suspenso_amo",
+        "valoracion": 5,
+        "descripcion": "Final impactante."
+      }
     ]
   }
 ]

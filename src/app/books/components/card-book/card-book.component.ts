@@ -1,9 +1,10 @@
 import { Component, input, signal } from '@angular/core';
 import { Book } from '../../interfaces/books.interfaces';
+import { ModalComponent } from '../modal/modal.component';
 
 @Component({
   selector: 'app-card-book',
-  imports: [],
+  imports: [ModalComponent],
   templateUrl: './card-book.component.html',
   styleUrl: './card-book.component.css',
 })
@@ -19,9 +20,5 @@ export class CardBookComponent {
 
   controlModal(): void {
     this.modal.update((current) => !current);
-  }
-
-  getRatingArray(rating: number): any[] {
-    return Array(Math.floor(rating));
   }
 }

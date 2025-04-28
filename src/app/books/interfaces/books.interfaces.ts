@@ -1,16 +1,24 @@
+import { SafeHtml } from '@angular/platform-browser';
+
 export interface Book {
-  titulo: string;
+  autor: string;
+  comentarios: Comentarios[];
+  descripcionBreve: string;
+  descripcionCorta: string;
+  enPrestamo: boolean;
   portada: string;
   rating: number;
-  descripcionCorta: string;
-  descripcionBreve: string;
-  enPrestamo: boolean;
-  comentarios: Comentarios[];
+  titulo: string;
 }
 
-
 export interface Comentarios {
-  usuario:string;
+  usuario: string;
   valoracion: number;
   descripcion: string;
+}
+
+export interface Icon {
+  name: string;
+  icon: SafeHtml;
+  route: string;
 }
