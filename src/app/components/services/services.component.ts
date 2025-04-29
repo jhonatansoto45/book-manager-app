@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faSquare, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
-import { TypeSectionComponent } from '../../../shared/components/type-section/type-section.component';
+import { TypeSectionComponent } from '../../shared/components/type-section/type-section.component';
 interface Services {
   title: string;
   description: string;

@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './books/pages/home/home.component';
+import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './auth/login/login.component';
+import { MainComponent } from './books/pages/main/main.component';
 
 export const routes: Routes = [
   {
@@ -18,11 +19,30 @@ export const routes: Routes = [
       import('./auth/sign-up/sign-up.component').then((m) => m.SignUpComponent),
   },
   {
-    path: 'dashboard',
+    path: 'books',
     loadComponent: () =>
-      import('./books/pages/dashboard/dashboard.component').then(
-        (m) => m.DashboardComponent
-      ),
+      import('./books/pages/main/main.component').then((m) => m.MainComponent),
+    children: [
+      {
+        path: 'dashboard',
+        loadComponent: () =>
+          import('./books/pages/dashboard/dashboard.component').then(
+            (m) => m.DashboardComponent
+          ),
+      },
+      {
+        path: 'list-books',
+        loadComponent: () =>
+          import('./books/pages/list-books/list-books.component').then(
+            (m) => m.ListBooksComponent
+          ),
+      },
+      {
+        path: '**',
+        redirectTo: 'dashboard',
+        pathMatch: 'full',
+      },
+    ],
   },
   {
     path: '**',

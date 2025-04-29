@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TypeSectionComponent } from '../../../shared/components/type-section/type-section.component';
+import { TypeSectionComponent } from '../../shared/components/type-section/type-section.component';
 
 @Component({
   selector: 'app-about',

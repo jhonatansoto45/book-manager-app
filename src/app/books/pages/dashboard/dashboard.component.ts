@@ -1,19 +1,12 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { AsideComponent } from '../../components/aside/aside.component';
 import { BooksService } from '../../services/books.service';
+import type { Book } from '../../interfaces/books.interfaces';
+import { PopularBooksComponent } from '../../components/popular-books/popular-books.component';
 import { CardBookComponent } from '../../components/card-book/card-book.component';
-import { Book } from '../../interfaces/books.interfaces';
-import { HeaderComponent } from './components/header/header.component';
-import { PopularBooksComponent } from './components/popular-books/popular-books.component';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [
-    AsideComponent,
-    CardBookComponent,
-    HeaderComponent,
-    PopularBooksComponent,
-  ],
+  imports: [PopularBooksComponent, CardBookComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })
@@ -21,7 +14,7 @@ export class DashboardComponent implements OnInit {
   loading = signal(true);
   books = signal<Book[]>([]);
   popularBooks = signal<Book[]>([]);
-
+  mainBooks = signal<Book[]>([]);
   booksService = inject(BooksService);
 
   ngOnInit(): void {
@@ -34,11 +27,17 @@ export class DashboardComponent implements OnInit {
       this.books.set(data);
       this.loading.set(false);
       this.getPopularBooks();
+      this.getMainBooks();
     });
   }
 
   getPopularBooks(): void {
     const popularBooks = this.books().sort((a, b) => b.rating - a.rating);
     this.popularBooks.set(popularBooks.slice(0, 3));
+  }
+
+  getMainBooks(): void {
+    const mainBooks = this.books().sort((a, b) => b.rating - a.rating);
+    this.mainBooks.set(mainBooks.slice(0, 8));
   }
 }

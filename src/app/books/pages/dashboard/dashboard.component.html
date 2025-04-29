@@ -1,65 +1,54 @@
-<div class="w-full h-screen flex bg-gray-100">
-  <div class="w-72 h-full">
-    <app-aside />
-  </div>
-
-  <div class="flex-1 flex flex-col overflow-hidden">
-    <app-header />
-    <main class="p-6 overflow-y-auto">
-      <div class="mb-6">
-        <h2 class="text-2xl font-semibold text-theme-blue mb-2">
-          Resumen General
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-          <div class="bg-white rounded-md shadow-sm p-4">
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-600">Total de Libros</span>
-              <span class="text-xl font-bold text-blue-500">
-                {{ books().length }}
-              </span>
-            </div>
-          </div>
-          <div class="bg-white rounded-md shadow-sm p-4">
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-600">Libros Prestados</span>
-              <span class="text-xl font-bold text-yellow-500">35</span>
-            </div>
-          </div>
-          <div class="bg-white rounded-md shadow-sm p-4">
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-600">Nuevos Usuarios Hoy</span>
-              <span class="text-xl font-bold text-green-500">12</span>
-            </div>
-          </div>
-          <div class="bg-white rounded-md shadow-sm p-4">
-            <div class="flex items-center justify-between">
-              <span class="text-sm text-gray-600">Préstamos Pendientes</span>
-              <span class="text-xl font-bold text-red-500">5</span>
-            </div>
-          </div>
+<main class="p-6 overflow-y-auto">
+  <div class="mb-6">
+    <h2 class="text-2xl font-semibold text-theme-blue mb-2">Resumen General</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-white rounded-md shadow-sm p-4">
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-gray-600">Total de Libros</span>
+          <span class="text-xl font-bold text-blue-500">
+            {{ books().length }}
+          </span>
         </div>
       </div>
-
-      <div class="mb-6">
-        <app-popular-books [popularBooks]="popularBooks()" />
+      <div class="bg-white rounded-md shadow-sm p-4">
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-gray-600">Libros Prestados</span>
+          <span class="text-xl font-bold text-yellow-500">35</span>
+        </div>
       </div>
-
-      <div>
-        <h2 class="text-2xl font-semibold text-theme-blue mb-6">
-          Últimos Libros Agregados
-        </h2>
-        <section
-          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-        >
-          @for (book of books(); track $index) {
-          <div
-            class="bg-white rounded-md shadow-md overflow-hidden transition-transform hover:scale-105 hover:shadow-lg"
-          >
-            <app-card-book [book]="book" />
-          </div>
-          }
-        </section>
+      <div class="bg-white rounded-md shadow-sm p-4">
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-gray-600">Nuevos Usuarios Hoy</span>
+          <span class="text-xl font-bold text-green-500">12</span>
+        </div>
       </div>
-    </main>
+      <div class="bg-white rounded-md shadow-sm p-4">
+        <div class="flex items-center justify-between">
+          <span class="text-sm text-gray-600">Préstamos Pendientes</span>
+          <span class="text-xl font-bold text-red-500">5</span>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+
+  <div class="mb-6">
+    <app-popular-books [popularBooks]="popularBooks()" />
+  </div>
+
+  <div>
+    <h2 class="text-2xl font-semibold text-theme-blue mb-6">
+      Últimos Libros Agregados
+    </h2>
+    <section
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+    >
+      @for (book of mainBooks(); track $index) {
+      <div
+        class="bg-white rounded-md shadow-md overflow-hidden transition-transform hover:scale-105 hover:shadow-lg"
+      >
+        <app-card-book [book]="book" />
+      </div>
+      }
+    </section>
+  </div>
+</main>

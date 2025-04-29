@@ -15,6 +15,7 @@
         @for (icon of icons; track $index) {
         <li
           class="mb-2 flex items-center py-2 px-4 hover:bg-theme-green hover:bg-opacity-50 hover:text-white transition duration-300 gap-2 cursor-pointer"
+          [routerLink]="[icon.route]"
         >
           <div [innerHTML]="icon.icon" class="text-white"></div>
           <span class="font-poppins text-sm">{{ icon.name | titlecase }}</span>
