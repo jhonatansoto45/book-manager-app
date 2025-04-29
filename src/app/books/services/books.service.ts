@@ -29,4 +29,8 @@ export class BooksService {
   getBooks(): Observable<Book[]> {
     return this.http.get<Book[]>(this.dataUrl);
   }
+
+  getBooksLoans(data: Book[]): Book[] {
+    return data.filter((book) => !book.enPrestamo);
+  }
 }

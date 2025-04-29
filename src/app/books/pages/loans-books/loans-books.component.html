@@ -1,1 +1,92 @@
-<p>loans-books works!</p>
+<div class="container mx-auto py-10">
+  <h1 class="text-3xl font-semibold text-theme-blue mb-6">
+    Préstamo de Libros
+  </h1>
+
+  <div class="bg-white shadow-md rounded-md overflow-hidden mb-8">
+    <h2 class="bg-theme-blue py-3 px-4 font-semibold text-white">
+      Listado de Libros
+    </h2>
+    @for (item of books(); track $index) {
+    <ul id="bookList" class="divide-y divide-gray-200">
+      <li class="px-4 py-3 flex items-center justify-between">
+        <div>
+          <span class="font-medium text-gray-800">{{ item.titulo }}</span>
+          <p class="text-sm text-gray-500">{{ item.autor }}</p>
+        </div>
+        <button
+          class="bg-theme-green-light hover:bg-theme-green cursor-pointer text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline prestar-btn"
+          type="button"
+          data-book-id="1"
+          data-book-title="item.titulo"
+        >
+          Prestar
+        </button>
+      </li>
+      <hr class="w-full border-gray-100" />
+    </ul>
+    }
+  </div>
+
+  <!-- <div
+    id="loanFormContainer"
+    class="bg-white shadow-md rounded-md overflow-hidden hidden"
+  >
+    <h2 class="bg-gray-200 py-3 px-4 font-semibold text-theme-blue">
+      Formulario de Préstamo
+    </h2>
+    <form class="p-4">
+      <div class="mb-4">
+        <label
+          for="bookTitle"
+          class="block text-gray-700 text-sm font-bold mb-2"
+          >Título del Libro:</label
+        >
+        <input
+          type="text"
+          id="bookTitle"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          disabled
+        />
+      </div>
+      <div class="mb-4">
+        <label
+          for="borrowerName"
+          class="block text-gray-700 text-sm font-bold mb-2"
+          >Nombre del Prestatario:</label
+        >
+        <input
+          type="text"
+          id="borrowerName"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="dueDate" class="block text-gray-700 text-sm font-bold mb-2"
+          >Fecha de Devolución:</label
+        >
+        <input
+          type="date"
+          id="dueDate"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+        />
+      </div>
+      <div class="flex items-center justify-end">
+        <button
+          id="cancelLoan"
+          class="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-2"
+          type="button"
+        >
+          Cancelar
+        </button>
+        <button
+          id="submitLoan"
+          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          type="button"
+        >
+          Confirmar Préstamo
+        </button>
+      </div>
+    </form>
+  </div> -->
+</div>
