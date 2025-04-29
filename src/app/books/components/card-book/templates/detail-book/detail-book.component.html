@@ -1,0 +1,77 @@
+<div
+  class="w-full h-full overflow-auto bg-white rounded-md shadow-lg overflow-y-auto relative flex flex-col"
+>
+  <header class="px-6 py-4 flex justify-between items-center border-b">
+    <h2 class="font-semibold text-xl text-theme-blue">Detalles del Libro</h2>
+  </header>
+
+  <div class="p-6">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="flex flex-col items-center">
+        <picture class="w-60 h-32 shadow-md rounded-md overflow-hidden flex-1">
+          <img
+            [src]="book().portada"
+            alt="{{ book().titulo }}"
+            class="w-full h-full object-cover"
+          />
+        </picture>
+        <strong class="mt-2 text-sm text-theme-green-light"
+          >Ref: 123456789</strong
+        >
+      </div>
+      <div>
+        <h2 class="font-bold text-3xl text-gray-900">{{ book().titulo }}</h2>
+        <p class="mt-2 text-gray-700">{{ book().descripcionCorta }}</p>
+        <p class="mt-2 text-gray-700">
+          Autor: <strong>{{ book().autor }}</strong>
+        </p>
+
+        <div class="flex items-center mt-4">
+          <strong class="text-xl text-theme-blue mr-2">Valoración:</strong>
+          <div class="text-xl text-yellow-500">
+            @for (star of getRatingArray(book().rating); track $index) {
+            <span>⭐</span> }
+          </div>
+        </div>
+
+        <p class="mt-4 text-gray-700">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+          repudiandae, fugit vitae magnam eveniet optio tenetur itaque id
+          ducimus placeat vero animi modi. Asperiores, nihil enim veritatis
+          magnam aspernatur iure!
+        </p>
+
+        <div class="mt-5 flex items-center gap-3">
+          <button
+            class="bg-blue-800 hover:bg-theme-blue cursor-pointer text-white font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline text-lg"
+          >
+            Reservar
+          </button>
+          <span class="text-sm font-semibold text-green-500">Disponible</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-8">
+      <h2 class="font-poppins font-bold text-2xl text-gray-800 mb-4">
+        Comentarios
+      </h2>
+      <div class="mt-4 space-y-4">
+        @for (item of book().comentarios; track $index) {
+        <article class="bg-gray-100 rounded-md p-4">
+          <header class="flex items-center mb-2">
+            <h3 class="font-semibold text-gray-700 mr-2">{{ item.usuario }}</h3>
+            <div class="text-sm text-yellow-500">
+              @for (star of getRatingArray(item.valoracion); track $index) {
+              <span>⭐</span> }
+            </div>
+          </header>
+          <p class="text-gray-600 text-sm">{{ item.descripcion }}</p>
+        </article>
+        } @empty {
+        <p class="text-gray-500">Aún no hay comentarios.</p>
+        }
+      </div>
+    </section>
+  </div>
+</div>
