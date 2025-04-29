@@ -36,6 +36,13 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'prestamos',
+        loadComponent: () =>
+          import('./books/pages/loans-books/loans-books.component').then(
+            (m) => m.LoansBooksComponent
+          ),
+      },
+      {
         path: '**',
         redirectTo: 'dashboard',
         pathMatch: 'full',

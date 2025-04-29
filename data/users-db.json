@@ -2,13 +2,13 @@
   {
     "nombre": "Lina Martínez",
     "correo": "lina.admin@example.com",
-    "contraseña": "Admin1234!",
+    "contraseña": "12345678",
     "esAdmin": true
   },
   {
     "nombre": "Carlos Gómez",
     "correo": "carlos.gomez@example.com",
-    "contraseña": "Usuario5678!",
+    "contraseña": "12345678",
     "esAdmin": false
   }
 ]
