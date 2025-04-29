@@ -8,7 +8,6 @@ import { CardBookComponent } from '../../components/card-book/card-book.componen
   selector: 'app-dashboard',
   imports: [PopularBooksComponent, CardBookComponent],
   templateUrl: './dashboard.component.html',
-  styleUrl: './dashboard.component.css',
 })
 export class DashboardComponent implements OnInit {
   loading = signal(true);
