@@ -43,6 +43,27 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'manage-books',
+        loadComponent: () =>
+          import('./books/pages/manage-book/manage-book.component').then(
+            (m) => m.ManageBookComponent
+          ),
+      },
+      {
+        path: 'register-book',
+        loadComponent: () =>
+          import('./books/pages/register-book/register-book.component').then(
+            (m) => m.RegisterBookComponent
+          ),
+      },
+      {
+        path: 'manage-account',
+        loadComponent: () =>
+          import('./books/pages/manage-account/manage-account.component').then(
+            (m) => m.ManageAccountComponent
+          ),
+      },
+      {
         path: '**',
         redirectTo: 'dashboard',
         pathMatch: 'full',
