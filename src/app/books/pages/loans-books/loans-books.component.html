@@ -19,6 +19,7 @@
           type="button"
           data-book-id="1"
           data-book-title="item.titulo"
+          (click)="openDialogBook(item)"
         >
           Prestar
         </button>
@@ -27,12 +28,11 @@
     </ul>
     }
   </div>
+</div>
 
-  <!-- <div
-    id="loanFormContainer"
-    class="bg-white shadow-md rounded-md overflow-hidden hidden"
-  >
-    <h2 class="bg-gray-200 py-3 px-4 font-semibold text-theme-blue">
+<ng-template #reservarBook let-data>
+  <div class="w-full h-full p-4 overflow-hidden">
+    <h2 class="py-3 px-4 font-semibold text-theme-blue">
       Formulario de Préstamo
     </h2>
     <form class="p-4">
@@ -40,21 +40,24 @@
         <label
           for="bookTitle"
           class="block text-gray-700 text-sm font-bold mb-2"
-          >Título del Libro:</label
         >
+          Título del Libro:
+        </label>
         <input
           type="text"
           id="bookTitle"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          [value]="data.book.titulo"
           disabled
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
         />
       </div>
       <div class="mb-4">
         <label
           for="borrowerName"
           class="block text-gray-700 text-sm font-bold mb-2"
-          >Nombre del Prestatario:</label
         >
+          Nombre del Prestatario:
+        </label>
         <input
           type="text"
           id="borrowerName"
@@ -62,9 +65,9 @@
         />
       </div>
       <div class="mb-4">
-        <label for="dueDate" class="block text-gray-700 text-sm font-bold mb-2"
-          >Fecha de Devolución:</label
-        >
+        <label for="dueDate" class="block text-gray-700 text-sm font-bold mb-2">
+          Fecha de Devolución:
+        </label>
         <input
           type="date"
           id="dueDate"
@@ -74,19 +77,20 @@
       <div class="flex items-center justify-end">
         <button
           id="cancelLoan"
-          class="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-2"
+          class="bg-gray-400 cursor-pointer hover:bg-gray-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mr-2"
           type="button"
+          (click)="closeDialogBook()"
         >
           Cancelar
         </button>
         <button
           id="submitLoan"
-          class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          class="bg-green-600 cursor-pointer hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           type="button"
         >
           Confirmar Préstamo
         </button>
       </div>
     </form>
-  </div> -->
-</div>
+  </div>
+</ng-template>

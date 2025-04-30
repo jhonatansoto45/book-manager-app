@@ -1,16 +1,30 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
-import { Book } from '../../interfaces/books.interfaces';
+import {
+  Component,
+  inject,
+  OnInit,
+  signal,
+  TemplateRef,
+  ViewChild,
+} from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { BooksService } from '../../services/books.service';
+import type { Book } from '../../interfaces/books.interfaces';
+import { JsonPipe } from '@angular/common';
 
 @Component({
   selector: 'app-loans-books',
-  imports: [],
+  imports: [JsonPipe],
   templateUrl: './loans-books.component.html',
 })
 export class LoansBooksComponent implements OnInit {
+  @ViewChild('reservarBook')
+  reservarBook!: TemplateRef<LoansBooksComponent>;
+
   loading = signal(true);
   books = signal<Book[]>([]);
   booksService = inject(BooksService);
+
+  readonly dialog = inject(MatDialog);
 
   ngOnInit(): void {
     this.getBooks();
@@ -23,5 +37,21 @@ export class LoansBooksComponent implements OnInit {
       this.books.set(booksLoans);
       this.loading.set(false);
     });
+  }
+
+  openDialogBook(book: Book) {
+    this.dialog.open(this.reservarBook, {
+      minWidth: '1100px',
+      maxWidth: '1100px',
+      minHeight: '380px',
+      maxHeight: '380px',
+      data: {
+        book,
+      },
+    });
+  }
+
+  closeDialogBook() {
+    this.dialog.closeAll();
   }
 }
