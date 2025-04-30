@@ -9,11 +9,9 @@ import {
 import { MatDialog } from '@angular/material/dialog';
 import { BooksService } from '../../services/books.service';
 import type { Book } from '../../interfaces/books.interfaces';
-import { JsonPipe } from '@angular/common';
 
 @Component({
   selector: 'app-loans-books',
-  imports: [JsonPipe],
   templateUrl: './loans-books.component.html',
 })
 export class LoansBooksComponent implements OnInit {
